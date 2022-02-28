@@ -1,10 +1,10 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
-const router = require('./Routes/routes.js');
+const router = require('./routes/routes');
 
 const hostname = 'localhost';
-const port = 8080;
+const port = "8055";
 
 const app = express();
 

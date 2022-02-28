@@ -1,4 +1,4 @@
-const Restaurants = require('../Models/Restaurants');
+const Restaurants = require('../models/Restaurants');
 
 exports.filterRestaurants = (req, res) => {
     let { mealtype, cuisine, location, lcost, hcost, page, sort } = req.body;
